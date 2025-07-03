@@ -231,7 +231,7 @@ nav {
 
 
 .footer {
-     background-color: var(--background-light);
+     background-color: var(--backgroundlight);
     padding: 5rem 0 1rem;
     margin-top: 4rem; 
 }
@@ -342,6 +342,35 @@ nav {
     top: -3px;
 }
 
+.btn-entrar, .btn-cadastrar {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn-entrar {
+   background-color: #0a0099;
+   border: 1px solid #0a0099;
+   color: white;
+}
+
+.btn-cadastrar {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: #333;
+}
+
+.btn-entrar:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-cadastrar:hover {
+    background-color: #050050;
+    border-color: #050050;
+}
+
 @media (max-width: 768px) {
     .logo-img {
         max-width: 120px; /* Tamanho menor para tablets */
@@ -373,6 +402,8 @@ nav {
         grid-template-columns: 1fr;
     }
 }
+
+
 
 
 @media (max-width: 480px) {
