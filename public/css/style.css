@@ -73,7 +73,7 @@ nav {
     flex: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem; /* Reduzi de 3rem */
+    gap: 2rem; 
     align-items: center;
     padding: 1.5rem 0; 
 }
@@ -373,7 +373,7 @@ nav {
 
 @media (max-width: 768px) {
     .logo-img {
-        max-width: 120px;
+        max-width: 120px; /* Tamanho menor para tablets */
     }
        .footer-content {
         grid-template-columns: 1fr;
